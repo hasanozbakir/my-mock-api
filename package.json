@@ -1,6 +1,23 @@
 {
+  "name": "my-mock-api",
+  "version": "1.0.0",
+  "description": "My Mock API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hasanozbakir/my-mock-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hasanozbakir/my-mock-api/issues"
+  },
+  "homepage": "https://github.com/hasanozbakir/my-mock-api#readme",
   "dependencies": {
-    "-": "^0.0.1",
-    "npm": "^9.6.1"
+    "json-server": "^0.17.2"
   }
 }
